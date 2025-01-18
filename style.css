@@ -691,8 +691,22 @@ img {
 
 @media screen and (max-width: 768px) {
 
+    .navbar {
+        height: fit-content;
+        padding: 15px 30px 10px 30px;
+    }
+
+    .navbar__menu {
+        padding-top: 15px;
+    }
+
     .navbar__actions {
         display: none;
+    }
+
+    .navbar__logo i{
+        font-size: 20px;
+        padding: 0;
     }
 
     .hero {
@@ -721,7 +735,7 @@ img {
     }
 
     .skills {
-        padding: 0 15px 0 0;
+        padding: 0 15px 0 5px;
     }
 
     .showcase__header h3 {
